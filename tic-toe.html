@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" type="text/css" href="tic-toe.css">
+</head>
+<body>
+  <div id="tic-tac-toe">
+    <div class="row">
+      <div class="cell" onclick="makeMove(0, 0)"></div>
+      <div class="cell" onclick="makeMove(0, 1)"></div>
+      <div class="cell" onclick="makeMove(0, 2)"></div>
+    </div>
+    <div class="row">
+      <div class="cell" onclick="makeMove(1, 0)"></div>
+      <div class="cell" onclick="makeMove(1, 1)"></div>
+      <div class="cell" onclick="makeMove(1, 2)"></div>
+    </div>
+    <div class="row">
+      <div class="cell" onclick="makeMove(2, 0)"></div>
+      <div class="cell" onclick="makeMove(2, 1)"></div>
+      <div class="cell" onclick="makeMove(2, 2)"></div>
+    </div>
+  </div>
+  
+  <button onclick="resetGame()">Reset</button>
+
+  <script src="tic-toe.js"></script>
+</body>
+</html>
